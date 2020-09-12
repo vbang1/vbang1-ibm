@@ -19,6 +19,13 @@
 ##### 1.1. 申请IBM免费VPS
 > 地址：https://cloud.ibm.com/
 
+
+ //老的安装代码
+ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/Ericssuny/IBMYes/master/install.sh && chmod +x install.sh && ./install.sh
+ //cli错误安装下面第一个代码
+ ibmcloud login -a 'https://cloud.ibm.com' -r 'us-south'
+ （备用）ibmcloud target --cf-api 'https://api.us-south.cf.cloud.ibm.com'
+
 # 1.2. V2ray一键安装代码(9月12日 00:01 更新)
 
 ```
